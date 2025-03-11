@@ -54,8 +54,8 @@ nav ul li{
     position: sticky;
     bottom: 0;
     height: 130px;
-    background-color: black;
-    color: white;
+    background-color: rgb(1, 0, 0);
+    color: rgb(251, 234, 212);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +106,8 @@ nav ul li{
 
 .songInfo{
     position: absolute;
-    left: 10vw;
+    left: 7vw;
+    bottom: 2vw;
     font-family: 'Varela Round', sans-serif;
 }
 

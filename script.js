@@ -8,16 +8,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Robbery", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Lucid Dreams", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "Hate Me", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Can You Feel My Heart", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Feel Nothing", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Mount Everest", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Cry For Me", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Remainder", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
-    {songName: "All Girls Are Same", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Bye Bye", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Robbery", filePath: "songs/1.mp3", coverPath: "cover/robbery.jpg"},
+    {songName: "Lucid Dreams", filePath: "songs/2.mp3", coverPath: "cover/lucid dreams.jpg"},
+    {songName: "Hate Me", filePath: "songs/3.mp3", coverPath: "cover/hate me.jpg"},
+    {songName: "Can You Feel My Heart", filePath: "songs/4.mp3", coverPath: "cover/can u feel my heart.jpg"},
+    {songName: "Feel Nothing", filePath: "songs/5.mp3", coverPath: "cover/feel nothing.jpg"},
+    {songName: "Mount Everest", filePath: "songs/2.mp3", coverPath: "cover/mount everest.jpg"},
+    {songName: "Cry For Me", filePath: "songs/2.mp3", coverPath: "cover/cry for me.jpg"},
+    {songName: "Reminder", filePath: "songs/2.mp3", coverPath: "cover/reminder.jpg"},
+    {songName: "All Girls Are Same", filePath: "songs/2.mp3", coverPath: "cover/all girls are same.jpg"},
+    {songName: "Bye Bye", filePath: "songs/4.mp3", coverPath: "cover/bye bye.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
